@@ -14,9 +14,9 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'senlib'
 DESCRIPTION = 'A pure Python library for some I2C sensors.'
-URL = 'https://github.com/lexruee/senlib'
-EMAIL = 'a.rueedlinger@gmail.com'
-AUTHOR = 'Alexander Rüedlinger'
+URL = 'https://github.com/Awaiskhan404/senlib'
+EMAIL = 'contact@awaiskhan.com.pk'
+AUTHOR = 'Awais khan'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

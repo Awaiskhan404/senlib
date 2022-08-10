@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Alexander Rüedlinger'
+__author__ = 'Awais khan'
 __all__ = ()
 
 from .sensors import amx

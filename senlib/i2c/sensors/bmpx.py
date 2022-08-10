@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Alexander Rüedlinger'
+__author__ = 'Awais khan'
 __all__ = ('BMP085', 'BMP180', 'BMP280')
 
 from senlib import logger

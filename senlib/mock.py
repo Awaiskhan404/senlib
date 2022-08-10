@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-__author__ = 'Alexander Rüedlinger'
+__author__ = 'Awais khan'
 __all__ = ('Sensor')
 
 
@@ -10,6 +10,6 @@ class Sensor(object):
 
     def measure(self):
         return {
-            'temperature': 29.5,
-            'humidity': 35.2
+            'temperature': 28.5,
+            'humidity': 25.2
         }
