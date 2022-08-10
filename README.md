@@ -26,7 +26,7 @@ the package manager of your operating system.
 On Arch Linux run the following command to install `pipenv`:
 
 ```
-sudo pacman -S python-pipenv
+sudo pacman -S python-pipenv or pip install senlib
 ```
 
 Next, clone this repo and cd into the `senlib` directory:
