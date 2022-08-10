@@ -28,13 +28,13 @@ On Arch Linux run the following command to install ``pipenv``:
 
 ::
 
-   sudo pacman -S python-pipenv
+   sudo pacman -S python-pipenv or pip install senlib
 
 Next, clone this repo and cd into the ``senlib`` directory:
 
 ::
 
-   git clone https://github.com/lexruee/senlib
+   git clone https://github.com/Awaiskhan4o4/senlib
    cd senlib
 
 Next, create a Python 3 environment as shown below:

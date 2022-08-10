@@ -97,11 +97,11 @@ setup(
             'sennode=senlib.cli:sennode',
             ],
     },
-    license='GPLv3',
+    license="(MIT OR Apache-2.0)",
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'License :: OSI Approved :: GPLv3',
+        #'License :: OSI Approved :: Apache Software License v2.0',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',

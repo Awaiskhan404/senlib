@@ -1,22 +1,21 @@
 # senlib
 
-Pure Python-based I2C sensor library for some I2C sensors. Work in progress. 
+Pure Python-based I2C sensor library for some I2C sensors. Work in progress.
 Nothing serious, just a hobby.
 
 Currently, the library supports the following sensors:
 
- * am2315/am2321
- * bh1750
- * bmp280/bmp180/bmp85
- * bme280
- * hdc1008
- * lm75
- * mcp9808
- * mpl115a2
- * mpl311a2
- * sht31
- * si7021
-
+- am2315/am2321
+- bh1750
+- bmp280/bmp180/bmp85
+- bme280
+- hdc1008
+- lm75
+- mcp9808
+- mpl115a2
+- mpl311a2
+- sht31
+- si7021
 
 ## Installation
 
@@ -26,13 +25,13 @@ the package manager of your operating system.
 On Arch Linux run the following command to install `pipenv`:
 
 ```
-sudo pacman -S python-pipenv
+sudo pacman -S python-pipenv or pip install senlib
 ```
 
 Next, clone this repo and cd into the `senlib` directory:
 
 ```
-git clone https://github.com/lexruee/senlib
+git clone https://github.com/Awaiskhan404/senlib
 cd senlib
 ```
 
@@ -64,7 +63,6 @@ or cd into the directory and run:
 pipenv shell && pytest tests
 ```
 
-
 ## CLI
 
 ### sennode
@@ -88,7 +86,6 @@ Options:
   --help                      Show this message and exit.
 ```
 
-
 #### Example Usage
 
 ```
@@ -98,12 +95,11 @@ sennode bme280 --address 'i2c://1/0x77' --mqtt-broker-url mqtts://user:password@
 Once started, the sensor data is exposed over an HTTP interface and
 a WebSocket interface:
 
- * http://0.0.0.0:8080
- * ws://0.0.0.0:8080
+- http://0.0.0.0:8080
+- ws://0.0.0.0:8080
 
 Besides that, the sensor data is perodically pushlished to the specified
 MQTT broker url.
-
 
 ### senlib
 
@@ -150,7 +146,7 @@ if __name__ == '__main__':
        data = sensor.measure()
        for key, value in data.items():
            print("{}:{:0.4f}".format(key, value))
-       
+
     sensor.close()
 ```
 
@@ -171,7 +167,3 @@ if __name__ == '__main__':
            for key, value in data.items():
                print("{}:{:0.4f}".format(key, value))
 ```
-
-
-
-
